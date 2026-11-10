@@ -9,56 +9,6 @@
   ],
   "sections": [
     {
-      "id": "domain1",
-      "label": "Domain I — Regulations",
-      "type": "mcq",
-      "domain": "Regulations",
-      "weightPercent": 48,
-      "examFiles": [],
-      "questionCount": 29,
-      "timeMin": 58
-    },
-    {
-      "id": "domain2",
-      "label": "Domain II — Airspace Classification and Operating Requirements",
-      "type": "mcq",
-      "domain": "Airspace Classification and Operating Requirements",
-      "weightPercent": 20,
-      "examFiles": [],
-      "questionCount": 12,
-      "timeMin": 24
-    },
-    {
-      "id": "domain3",
-      "label": "Domain III — Weather",
-      "type": "mcq",
-      "domain": "Weather",
-      "weightPercent": 5,
-      "examFiles": [],
-      "questionCount": 3,
-      "timeMin": 6
-    },
-    {
-      "id": "domain4",
-      "label": "Domain IV — Loading and Performance",
-      "type": "mcq",
-      "domain": "Loading and Performance",
-      "weightPercent": 2,
-      "examFiles": [],
-      "questionCount": 1,
-      "timeMin": 2
-    },
-    {
-      "id": "domain5",
-      "label": "Domain V — Operations",
-      "type": "mcq",
-      "domain": "Operations",
-      "weightPercent": 25,
-      "examFiles": [],
-      "questionCount": 15,
-      "timeMin": 30
-    },
-    {
       "id": "full",
       "label": "Full-Length Practice Test",
       "type": "mcq",

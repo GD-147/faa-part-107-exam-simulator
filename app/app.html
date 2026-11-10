@@ -28,33 +28,29 @@
   <main class="container">
     <section id="page-home" class="page">
       <h2>Welcome</h2>
-      <p>Explore the five FAA Part 107 knowledge domains and the Full-Length Practice Test. Choose a domain or a timed full-length test. Printable exams include an answer key and explanations.</p>
+      <p>Prepare for the FAA Part 107 Remote Pilot exam with full-length tests, progressive practice sessions, detailed explanations, and printable exams.</p>
     </section>
 
 <section id="page-sim" class="page hidden">
   <h2>Exam Simulator</h2>
 
   <div class="panel">
-    <label class="label" for="sectionSelect">Choose an exam</label>
-    <select id="sectionSelect" class="select"></select>
-    <p class="helper" style="margin-top:10px;">
-  FAA Part 107 Remote Pilot exam preparation platform with domain-focused practice, timed full-length tests, detailed explanations, and printable practice materials.
-</p>
-    <button id="startSim" class="btn" style="margin-top:12px;">Start</button>
-    <p class="helper">You’ll choose Exam Mode or Practice Mode on the next screen.</p>
+    <label class="label hidden" for="sectionSelect">Choose an exam</label>
+    <select id="sectionSelect" class="select hidden"></select>
+    <p class=\"helper\">Choose Full-Length Exam Mode or Practice Mode below.</p>
+    <button id="startSim" class="btn hidden" style="margin-top:12px;">Start</button>
+    <p class="helper">Select your preferred mode below.</p>
   </div>
 
-  <div id="modePanel" class="panel hidden" style="margin-top:16px;">
+  <div id="modePanel" class="panel" style="margin-top:16px;">
     <h3 style="margin:0 0 10px;">Select a mode</h3>
 
     <div class="row">
-      <button id="examModeBtn" class="btn btn-secondary">Exam Mode</button>
-      <button id="practiceModeBtn" class="btn btn-secondary">Practice Mode</button>
+      <button id="examModeBtn" class="btn btn-secondary">Full-Length Exam Mode</button>
+      <button id="practiceModeBtn" class="btn btn-secondary">Practice Mode — 10 Questions</button>
     </div>
 
-    <p class="helper" style="margin-top:10px;">
-      Exam Mode runs the full selected practice section with recommended timing. Practice Mode runs 10 questions per session.
-    </p>
+    <p class="helper" style="margin-top:10px;">Full-Length: 65 questions, 120 minutes, 70% passing score. Practice: progressive blocks of 10 questions from the cumulative question pool.</p>
   </div>
 </section>
 
