@@ -1,0 +1,63 @@
+{
+  "examId": "faa-part-107",
+  "brandName": "FAA Part 107 Remote Pilot Exam Simulator",
+  "accessPassword": "FAA107PREP",
+  "practiceChunkSize": 10,
+  "examFiles": [],
+  "sections": [
+    {
+      "id": "domain1",
+      "label": "Domain I — Regulations",
+      "type": "mcq",
+      "domain": "Regulations",
+      "weightPercent": 48,
+      "examFiles": []
+    },
+    {
+      "id": "domain2",
+      "label": "Domain II — Airspace Classification and Operating Requirements",
+      "type": "mcq",
+      "domain": "Airspace Classification and Operating Requirements",
+      "weightPercent": 20,
+      "examFiles": []
+    },
+    {
+      "id": "domain3",
+      "label": "Domain III — Weather",
+      "type": "mcq",
+      "domain": "Weather",
+      "weightPercent": 5,
+      "examFiles": []
+    },
+    {
+      "id": "domain4",
+      "label": "Domain IV — Loading and Performance",
+      "type": "mcq",
+      "domain": "Loading and Performance",
+      "weightPercent": 2,
+      "examFiles": []
+    },
+    {
+      "id": "domain5",
+      "label": "Domain V — Operations",
+      "type": "mcq",
+      "domain": "Operations",
+      "weightPercent": 25,
+      "examFiles": []
+    },
+    {
+      "id": "full",
+      "label": "Full-Length Practice Test",
+      "type": "mcq",
+      "questionCount": 65,
+      "timeMin": 120,
+      "scoredCount": 60,
+      "unscoredCount": 5,
+      "passingScore": 70,
+      "examFiles": []
+    }
+  ],
+  "printables": [],
+  "theme": "dark",
+  "logoPath": "../packs/faa-part-107/assets/logo.png"
+}
