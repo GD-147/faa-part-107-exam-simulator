@@ -294,3 +294,6 @@ body.theme-light .rubricItem{
   margin-bottom: 10px;
   font-size: 0.92rem;
 }
+
+/* FAA TEXT EXHIBITS */
+.questionPrompt { white-space: pre-line; }

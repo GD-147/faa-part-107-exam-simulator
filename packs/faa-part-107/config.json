@@ -3,7 +3,10 @@
   "brandName": "FAA Part 107 Remote Pilot Exam Simulator",
   "accessPassword": "FAA107PREP",
   "practiceChunkSize": 10,
-  "examFiles": [],
+  "examFiles": [
+    "faa-part-107_exam_01.json",
+    "faa-part-107_exam_20.json"
+  ],
   "sections": [
     {
       "id": "domain1",
@@ -11,7 +14,9 @@
       "type": "mcq",
       "domain": "Regulations",
       "weightPercent": 48,
-      "examFiles": []
+      "examFiles": [],
+      "questionCount": 29,
+      "timeMin": 58
     },
     {
       "id": "domain2",
@@ -19,7 +24,9 @@
       "type": "mcq",
       "domain": "Airspace Classification and Operating Requirements",
       "weightPercent": 20,
-      "examFiles": []
+      "examFiles": [],
+      "questionCount": 12,
+      "timeMin": 24
     },
     {
       "id": "domain3",
@@ -27,7 +34,9 @@
       "type": "mcq",
       "domain": "Weather",
       "weightPercent": 5,
-      "examFiles": []
+      "examFiles": [],
+      "questionCount": 3,
+      "timeMin": 6
     },
     {
       "id": "domain4",
@@ -35,7 +44,9 @@
       "type": "mcq",
       "domain": "Loading and Performance",
       "weightPercent": 2,
-      "examFiles": []
+      "examFiles": [],
+      "questionCount": 1,
+      "timeMin": 2
     },
     {
       "id": "domain5",
@@ -43,7 +54,9 @@
       "type": "mcq",
       "domain": "Operations",
       "weightPercent": 25,
-      "examFiles": []
+      "examFiles": [],
+      "questionCount": 15,
+      "timeMin": 30
     },
     {
       "id": "full",
@@ -57,7 +70,16 @@
       "examFiles": []
     }
   ],
-  "printables": [],
+  "printables": [
+    {
+      "label": "Practice Exam 01 — Full-Length (Answer Key and Explanations)",
+      "file": "faa_part_107_practice_exam_01.pdf"
+    },
+    {
+      "label": "Practice Exam 20 — Full-Length (Answer Key and Explanations)",
+      "file": "faa_part_107_practice_exam_20.pdf"
+    }
+  ],
   "theme": "dark",
   "logoPath": "../packs/faa-part-107/assets/logo.png"
 }
