@@ -20,6 +20,7 @@
       <a class="navlink" href="#" data-page="home">Home</a>
       <a class="navlink" href="#" data-page="sim">Exam Simulator</a>
       <a class="navlink" href="#" data-page="pdf">Printable Practice Exams</a>
+      <a class="navlink" href="../packs/faa-part-107/pdf/Part107_Flashcards.pdf" target="_blank" rel="noopener noreferrer">Flashcards</a>
 
       <a class="navlink" href="#" id="logoutLink">Log out</a>
     </nav>
@@ -93,7 +94,7 @@
       pages[pageKey].classList.remove("hidden");
     }
 
-    document.querySelectorAll(".navlink").forEach(link => {
+    document.querySelectorAll(".navlink[data-page]").forEach(link => {
       link.addEventListener("click", (e) => {
         e.preventDefault();
         show(link.dataset.page);

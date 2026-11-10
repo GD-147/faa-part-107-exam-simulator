@@ -297,3 +297,9 @@ body.theme-light .rubricItem{
 
 /* FAA TEXT EXHIBITS */
 .questionPrompt { white-space: pre-line; }
+
+/* FAA FLASHCARDS NAV MOBILE WRAP */
+@media (max-width: 980px) {
+  .topbar { flex-wrap: wrap; justify-content: center; gap: 10px; }
+  .nav { flex-wrap: wrap; justify-content: center; gap: 8px; }
+}
