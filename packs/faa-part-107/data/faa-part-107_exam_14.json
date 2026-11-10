@@ -1,0 +1,859 @@
+{
+  "examId": "faa-part-107",
+  "questions": [
+    {
+      "id": "FAA107-T14-Q001",
+      "prompt": "Written scenario data: The taxiway sign assembly has a black location panel displaying A and a yellow direction panel with a left arrow toward B.\n\nThe written scenario data describe a combined airport sign assembly. Which interpretation matches the assembly?",
+      "choices": {
+        "A": "Both panels grant clearance to cross the next runway.",
+        "B": "You are on Taxiway B, and Taxiway A is indicated to the left.",
+        "C": "You are on Taxiway A, and Taxiway B is indicated to the left."
+      },
+      "domain": "Operations",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: The black location panel identifies the current taxiway A. The yellow direction panel points left toward B.\nWhy A is incorrect: Location and direction signs provide information. They do not themselves grant a runway-crossing clearance.\nWhy B is incorrect: That exchanges the functions and letters of the two panels.\nReference: FAA AIM, §2-3-6, Other Markings — https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap2_section_3.html\nReference: FAA AIM, Chapter 2, Aeronautical Lighting and Other Airport Visual Aids — https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap2_section_1.html",
+      "textOnlyAdaptation": true
+    },
+    {
+      "id": "FAA107-T14-Q002",
+      "prompt": "A drone has an ATC transponder. With no specific FAA authorization, the crew proposes turning it on for the flight so radar operators can identify the aircraft. What does §107.52 require?",
+      "choices": {
+        "A": "Turn it on if the aircraft's Remote ID is also operating.",
+        "B": "Turn it on whenever the drone is outside Class G.",
+        "C": "Keep the transponder off unless the Administrator authorizes its use."
+      },
+      "domain": "Regulations",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: Section 107.52 prohibits operating the small UAS with a transponder on unless otherwise authorized by the Administrator.\nWhy A is incorrect: Remote ID compliance does not authorize turning on an ATC transponder.\nWhy B is incorrect: An airspace class does not by itself supply the required authorization.\nReference: 14 CFR § 107.52 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.52"
+    },
+    {
+      "id": "FAA107-T14-Q003",
+      "prompt": "A qualified current pilot is assigned a drone whose aircraft registration has been revoked. The plastic pilot certificate and aircraft hardware are both in good condition. What prevents the proposed ordinary flight?",
+      "choices": {
+        "A": "Only a lack of pilot knowledge recency could prevent it.",
+        "B": "The revoked registration remains effective until its printed expiration date.",
+        "C": "The aircraft lacks effective registration."
+      },
+      "domain": "Regulations",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: Effective aircraft registration is independent of pilot qualifications and the hardware's condition. A revoked registration cannot be relied on until resolved.\nWhy A is incorrect: Current pilot knowledge does not establish the aircraft's registration status.\nWhy B is incorrect: A revocation changes effectiveness independently of a later printed expiry.\nReference: 14 CFR § 107.13 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.13\nReference: 14 CFR § 48.100 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/section-48.100"
+    },
+    {
+      "id": "FAA107-T14-Q004",
+      "prompt": "A proposed broadcast-module substitute uploads identification data to a website using cellular service. It sends no required local Remote ID radio broadcast. Does access to the website alone satisfy the module pathway?",
+      "choices": {
+        "A": "Yes. Any website showing the serial number counts as the module broadcast.",
+        "B": "No. Internet availability does not replace the required compliant Remote ID broadcast.",
+        "C": "Yes. A cellular subscription automatically supplies the non-proprietary broadcast specification."
+      },
+      "domain": "Regulations",
+      "correct": "B",
+      "unscored": false,
+      "explanation": "Why B works: The module pathway requires the specified compliant broadcast equipment and functionality. A cloud-only feed does not supply that radio broadcast.\nWhy A is incorrect: Displaying some information online is different from broadcasting the required elements under the specified requirements.\nWhy C is incorrect: A communications subscription does not establish the required Remote ID broadcast implementation.\nReference: 14 CFR § 89.115 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/section-89.115\nReference: 14 CFR § 89.320 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/section-89.320"
+    },
+    {
+      "id": "FAA107-T14-Q005",
+      "prompt": "A warmly dressed pilot develops numb fingers and cannot reliably distinguish small control inputs during the ground check. What needs to be resolved?",
+      "choices": {
+        "A": "Proceed because the pilot's torso feels warm.",
+        "B": "Launch and use turbulence to check whether finger sensitivity returns.",
+        "C": "Restore reliable control ability or assign a suitable qualified pilot before flight."
+      },
+      "domain": "Operations",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: Reliable control is a functional requirement for safe operation. Overall comfort does not establish fine-motor ability.\nWhy A is incorrect: Warm clothing does not rule out impaired hand function.\nWhy B is incorrect: An airborne trial introduces risk while the control problem remains unresolved.\nReference: FAA Pilot’s Handbook of Aeronautical Knowledge, chs. 2 and 17, Decision-Making and Aeromedical Factors — https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak\nReference: FAA AC 107-2A, Small Unmanned Aircraft System — https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2A.pdf"
+    },
+    {
+      "id": "FAA107-T14-Q006",
+      "prompt": "Written scenario data: The chart's Sedona airport lighting entry shows an asterisk before L, indicating that the lighting entry has special information or limitations documented elsewhere.\n\nThe Sedona airport data include an asterisk before the lighting entry L. What planning action does that symbol support?",
+      "choices": {
+        "A": "Check the Chart Supplement for lighting limitations or special information.",
+        "B": "Treat the asterisk as permission for all drone night flights nearby.",
+        "C": "Assume the airport has no lights under any circumstances."
+      },
+      "domain": "Airspace Classification and Operating Requirements",
+      "correct": "A",
+      "unscored": false,
+      "explanation": "Why A works: The asterisk indicates lighting limitations or special information. The Chart Supplement supplies the applicable details.\nWhy B is incorrect: An airport lighting annotation does not grant drone operating permission.\nWhy C is incorrect: A qualified lighting entry is different from an airport with no lighting entry.\nReference: FAA Aeronautical Chart Users’ Guide, July 9, 2026, VFR Terms and Symbols — https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/aero_guide/\nReference: FAA, Chart Supplements — https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/dafd/\nReference: FAA VFR Raster Charts, Sectionals and effective dates — https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "textOnlyAdaptation": true
+    },
+    {
+      "id": "FAA107-T14-Q007",
+      "prompt": "After moving, a remote pilot notifies the FAA of the new permanent mailing address within 30 days. The effective pilot certificate still shows the old address. Does §107.77(b) require the pilot to wait for a corrected printed certificate solely because the printing is old?",
+      "choices": {
+        "A": "Yes. Every residential move automatically cancels the pilot certificate.",
+        "B": "Yes. The notification has no effect until a replacement is physically delivered.",
+        "C": "No. The section's address-notification condition has been met."
+      },
+      "domain": "Regulations",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: Section 107.77(b) limits exercising privileges after 30 days unless the FAA has been notified. On these facts that notification was made.\nWhy A is incorrect: Moving does not automatically cancel the certificate under this section.\nWhy B is incorrect: The provision does not make receipt of a newly printed certificate the notification trigger.\nReference: 14 CFR § 107.77 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.77"
+    },
+    {
+      "id": "FAA107-T14-Q008",
+      "prompt": "Written scenario data: The METAR gives temperature group M03/M05, with M denoting a negative Celsius value.\n\nWhat temperature-dew point spread should the crew enter in its weather notes?",
+      "choices": {
+        "A": "8°C.",
+        "B": "2°C.",
+        "C": "−2°C."
+      },
+      "domain": "Weather",
+      "correct": "B",
+      "unscored": false,
+      "explanation": "Why B works: M03 means −3°C and M05 means −5°C. The spread is −3 − (−5) = 2°C.\nWhy A is incorrect: Adding the magnitudes ignores their signed values and does not compute the spread.\nWhy C is incorrect: Temperature is 2°C above dew point rather than 2°C below it.\nReference: FAA-H-8083-28B, Aviation Weather Handbook — https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook\nReference: NOAA Aviation Weather Center, Aviation Weather Data Help, TAF — https://aviationweather.gov/help/data/",
+      "textOnlyAdaptation": true
+    },
+    {
+      "id": "FAA107-T14-Q009",
+      "prompt": "A crew appoints a visual observer who will not manipulate controls or act as remote PIC. What does Part 107 require regarding that observer's remote pilot certificate?",
+      "choices": {
+        "A": "The observer must pass UAG even if no pilot certificate is issued.",
+        "B": "Every visual observer must hold the same pilot certificate as the remote PIC.",
+        "C": "The observer does not need that certificate solely to serve as visual observer."
+      },
+      "domain": "Regulations",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: Part 107 specifies duties for the observer, but it does not require a remote pilot certificate just for that role.\nWhy A is incorrect: A separate UAG pass is not a stated qualification for the observer role.\nWhy B is incorrect: The certificate requirement for the remote PIC does not automatically extend to the observer.\nReference: 14 CFR § 107.12 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.12\nReference: 14 CFR § 107.33 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.33\nReference: FAA AC 107-2A, Small Unmanned Aircraft System — https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2A.pdf"
+    },
+    {
+      "id": "FAA107-T14-Q010",
+      "prompt": "A second crew member opens a video window labeled REPLAY and reports that the aircraft has cleared a roof. The pilot's direct observation shows it has not. What should the crew do?",
+      "choices": {
+        "A": "Treat the replay as historical, correct the report, and use current verified observations for control.",
+        "B": "Use the replay position until the direct view agrees with it.",
+        "C": "Treat every video window as live because the controller is still connected."
+      },
+      "domain": "Operations",
+      "correct": "A",
+      "unscored": false,
+      "explanation": "Why A works: A replay depicts an earlier recorded state. The label and conflicting current observation identify a report that cannot establish present clearance.\nWhy B is incorrect: The historical view should not override verified current aircraft position.\nWhy C is incorrect: An active connection does not make every window a live stream.\nReference: FAA AC 107-2A, Small Unmanned Aircraft System — https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2A.pdf\nReference: FAA Pilot’s Handbook of Aeronautical Knowledge, chs. 2 and 17, Decision-Making and Aeromedical Factors — https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+    },
+    {
+      "id": "FAA107-T14-Q011",
+      "prompt": "During UAG, a candidate copies an actual test item onto a card and intentionally removes the card to study privately. The candidate does not share it or change an answer. Is the lack of sharing or answer changes a defense under §107.69(a)(1)?",
+      "choices": {
+        "A": "No. Copying or intentionally removing knowledge-test material is separately prohibited.",
+        "B": "Yes. Unauthorized conduct requires a changed exam score.",
+        "C": "Yes. The prohibition applies only when another candidate receives the material."
+      },
+      "domain": "Regulations",
+      "correct": "A",
+      "unscored": true,
+      "explanation": "Why A works: Section 107.69(a)(1) prohibits copying or intentionally removing a knowledge test. Sharing and changes to answers are not conditions of that prohibition.\nWhy B is incorrect: The copying and removal prohibition does not depend on proving a score change.\nWhy C is incorrect: Giving material to another applicant is a separate prohibited act.\nReference: 14 CFR § 107.69 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.69"
+    },
+    {
+      "id": "FAA107-T14-Q012",
+      "prompt": "An ordinary commercial landlord owns a suitable field but is neither a recognized community-based organization nor an educational institution. Does ownership alone make the landlord eligible to apply for a FRIA?",
+      "choices": {
+        "A": "Yes. Any holder of a remote pilot certificate is an eligible FRIA applicant.",
+        "B": "No. The applicant must meet the eligibility categories in §89.205.",
+        "C": "Yes. Any landowner is an eligible FRIA applicant."
+      },
+      "domain": "Regulations",
+      "correct": "B",
+      "unscored": false,
+      "explanation": "Why B works: Section 89.205 identifies recognized community-based organizations and educational institutions as eligible applicants. Field ownership alone does not meet that condition.\nWhy A is incorrect: A remote pilot certificate does not itself create an eligible applicant organization.\nWhy C is incorrect: Ownership is different from the applicant eligibility the section specifies.\nReference: 14 CFR § 89.205 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/section-89.205"
+    },
+    {
+      "id": "FAA107-T14-Q013",
+      "prompt": "A training chart gives a true outbound course of 070° and a 12° west magnetic variation. Use magnetic course = true course + west variation. What is the magnetic course for the reciprocal return leg?",
+      "choices": {
+        "A": "262°.",
+        "B": "238°.",
+        "C": "250°."
+      },
+      "domain": "Airspace Classification and Operating Requirements",
+      "correct": "A",
+      "unscored": false,
+      "explanation": "Why A works: The true reciprocal is 070° + 180° = 250°. Adding 12° west variation gives 262° magnetic.\nWhy B is incorrect: 238° subtracts the west variation instead of using the stated addition rule.\nWhy C is incorrect: 250° is the true return course before applying variation.\nReference: FAA Aeronautical Chart Users’ Guide, July 9, 2026, VFR Terms and Symbols — https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/aero_guide/\nReference: FAA Pilot’s Handbook of Aeronautical Knowledge, ch. 16, Navigation — https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+    },
+    {
+      "id": "FAA107-T14-Q014",
+      "prompt": "A radio reply says “Stand by.” What does the sender expect the recipient to do?",
+      "choices": {
+        "A": "Assume every requested action has been approved.",
+        "B": "Wait while the sender is occupied and expects to call again.",
+        "C": "Repeat the full message continuously until interrupted."
+      },
+      "domain": "Operations",
+      "correct": "B",
+      "unscored": false,
+      "explanation": "Why B works: Stand by asks the recipient to pause, generally because the sender or receiver is occupied, and a later call is expected.\nWhy A is incorrect: The phrase is not an approval of the requested action.\nWhy C is incorrect: Repeated transmissions would defeat the request to wait and could occupy the frequency.\nReference: FAA AIM, §4-2, Radio Communications Phraseology and Techniques — https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap4_section_2.html\nReference: FAA Pilot/Controller Glossary, STAND BY — https://www.faa.gov/air_traffic/publications/atpubs/pcg_html/glossary-s.html"
+    },
+    {
+      "id": "FAA107-T14-Q015",
+      "prompt": "A drone's anti-collision light is visible at the required range. At the control station, however, prominent lighted ground references can be identified only 2 statute miles away. Does the aircraft light alone establish the required nighttime flight visibility?",
+      "choices": {
+        "A": "Yes. The light replaces the requirement to see surrounding references.",
+        "B": "Yes. Nighttime flight visibility is measured only from the drone's camera.",
+        "C": "No. The observed flight visibility is a separate requirement from the light's visibility range."
+      },
+      "domain": "Regulations",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: Section 107.51(c) specifies flight visibility observed from the control station using prominent references. Section 107.29 supplies a separate lighting requirement.\nWhy A is incorrect: Seeing the aircraft light does not establish the visibility of surrounding references.\nWhy B is incorrect: The camera is not the specified observation location for this minimum.\nReference: 14 CFR § 107.29 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.29\nReference: 14 CFR § 107.51 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.51"
+    },
+    {
+      "id": "FAA107-T14-Q016",
+      "prompt": "Warm moist air moves over much colder coastal water toward a launch site during the afternoon. Visibility deteriorates even though the wind continues and the sun is up. Which mechanism best explains the fog risk?",
+      "choices": {
+        "A": "Radiation fog that can form only after the wind and sunlight both stop.",
+        "B": "Advection cooling of the moving moist air over the cold surface.",
+        "C": "Compression warming of air descending over the cold water."
+      },
+      "domain": "Weather",
+      "correct": "B",
+      "unscored": true,
+      "explanation": "Why B works: Moving moist air can cool to saturation over a colder surface and form advection fog. The process does not require night or calm conditions.\nWhy A is incorrect: Radiation fog depends on surface radiational cooling and is not the mechanism described by this moving warm-moist-air setup.\nWhy C is incorrect: Compression warming moves air away from saturation rather than explaining this cooling mechanism.\nReference: FAA-H-8083-28B, Aviation Weather Handbook — https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook"
+    },
+    {
+      "id": "FAA107-T14-Q017",
+      "prompt": "A Part 107 crew has the required prior ATC authorization for its Class D flight. The issued terms add no radio-carriage condition. Does §107.41 itself require every such drone to carry a two-way aviation radio?",
+      "choices": {
+        "A": "Yes. An aviation handheld radio automatically serves as the airspace authorization.",
+        "B": "No. The section requires prior authorization and does not itself impose a universal radio-carriage requirement.",
+        "C": "Yes. The aircraft must always have an onboard two-way aviation radio."
+      },
+      "domain": "Regulations",
+      "correct": "B",
+      "unscored": false,
+      "explanation": "Why B works: The crew must meet the issued authorization and other applicable requirements. Section 107.41 itself establishes the prior-authorization requirement rather than universal radio carriage.\nWhy A is incorrect: Possessing communication equipment does not constitute ATC authorization.\nWhy C is incorrect: The section does not state that equipment requirement for every drone.\nReference: 14 CFR § 107.41 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.41\nReference: FAA AC 107-2A, Small Unmanned Aircraft System — https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2A.pdf"
+    },
+    {
+      "id": "FAA107-T14-Q018",
+      "prompt": "A visual observer can still see the aircraft after a concrete mixer parks between the observer and pilot. The crew's voice calls are now unintelligible and no working alternate communication method is available. What must be resolved?",
+      "choices": {
+        "A": "Restore effective communication or safely change the crew arrangement before relying on that observer.",
+        "B": "Only the drone's registration needs to be checked again.",
+        "C": "Nothing, because visual contact with the drone satisfies every observer requirement."
+      },
+      "domain": "Regulations",
+      "correct": "A",
+      "unscored": false,
+      "explanation": "Why A works: Section 107.33 requires effective communication at all times when an observer is used. Continued visual contact does not resolve the communication failure.\nWhy B is incorrect: Registration status does not repair the failed crew communication path.\nWhy C is incorrect: The visual and communication duties are separate.\nReference: 14 CFR § 107.33 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.33"
+    },
+    {
+      "id": "FAA107-T14-Q019",
+      "prompt": "A newly assigned launch assistant attended a meeting covering weather, normal roles, and the route. The meeting omitted emergency and contingency procedures. Has attendance alone established the required preflight briefing for that assistant?",
+      "choices": {
+        "A": "Yes. Ground participants need only the weather portion.",
+        "B": "Yes. Physical attendance satisfies the rule regardless of the information presented.",
+        "C": "No. The assistant must also be informed about the required emergency and contingency procedures."
+      },
+      "domain": "Regulations",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: Section 107.49(b) specifies the information that all direct participants must receive. Attendance is not a substitute for omitted required content.\nWhy A is incorrect: Direct ground participants are included in the specified briefing duty.\nWhy B is incorrect: A meeting can take place without communicating every required subject.\nReference: 14 CFR § 107.49 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.49"
+    },
+    {
+      "id": "FAA107-T14-Q020",
+      "prompt": "Written scenario data: The battery's maximum cell voltage is 4.15 V and minimum is 3.88 V. The acceptance criterion permits no more than 0.10 V spread.\n\nThe fictional battery procedure permits no more than 0.10 volt between the highest and lowest cells. in the written scenario data, what should the crew record?",
+      "choices": {
+        "A": "A 0.27-volt spread, which fails the stated check despite the plausible pack total.",
+        "B": "A 0.01-volt spread, because only the two highest cells are compared.",
+        "C": "A pass based solely on the 16.32-volt total."
+      },
+      "domain": "Operations",
+      "correct": "A",
+      "unscored": false,
+      "explanation": "Why A works: The highest cell is 4.15 volts and the lowest is 3.88 volts. Their difference is 0.27 volt, above 0.10.\nWhy B is incorrect: The criterion compares the maximum and minimum across all cells, including the low cell.\nWhy C is incorrect: A total can appear plausible while individual cells are substantially unbalanced.\nReference: FAA AC 107-2A, Small Unmanned Aircraft System — https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2A.pdf\nReference: FAA Pilot’s Handbook of Aeronautical Knowledge, ch. 11, Aircraft Performance — https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+      "textOnlyAdaptation": true
+    },
+    {
+      "id": "FAA107-T14-Q021",
+      "prompt": "A drone starts at 180 feet AGL and climbs to 360 feet AGL over level ground. A uniform cloud base is 800 feet AGL directly overhead. No waiver applies. What is the highest height on this climb that satisfies the 500-foot-below-cloud requirement?",
+      "choices": {
+        "A": "360 feet AGL.",
+        "B": "400 feet AGL.",
+        "C": "300 feet AGL."
+      },
+      "domain": "Regulations",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: Subtract the required 500 feet from the 800-foot cloud base to obtain 300 feet AGL. The climb would lose the required clearance above that height.\nWhy A is incorrect: At 360 feet AGL, only 440 feet of clearance remains.\nWhy B is incorrect: The general 400-foot altitude limit does not ensure a separate 500-foot cloud margin.\nReference: 14 CFR § 107.51 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.51"
+    },
+    {
+      "id": "FAA107-T14-Q022",
+      "prompt": "A standard Remote ID test demonstrates 95-percent geometric-altitude accuracy within 20 feet for the control station and within 100 feet for the aircraft. Considering only these two accuracy limits, what fails?",
+      "choices": {
+        "A": "The control-station result fails its 15-foot limit, while the aircraft result meets its 150-foot limit.",
+        "B": "Both pass because both errors are under 150 feet.",
+        "C": "The aircraft fails because every geometric altitude must be accurate within 15 feet."
+      },
+      "domain": "Regulations",
+      "correct": "A",
+      "unscored": false,
+      "explanation": "Why A works: Section 89.310(h) specifies different tolerances. Twenty exceeds the control station's 15-foot tolerance. One hundred is within the aircraft's 150-foot tolerance.\nWhy B is incorrect: The aircraft's tolerance is not the control station's tolerance.\nWhy C is incorrect: The aircraft altitude has its own 150-foot limit at the specified probability.\nReference: 14 CFR § 89.310 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/section-89.310"
+    },
+    {
+      "id": "FAA107-T14-Q023",
+      "prompt": "A company attempts to list one broadcast module's serial number on two separate active Part 107 aircraft registration certificates at the same time. The module will be physically moved between drones rather than flown twice at once. Is simultaneous listing allowed under §48.110(a)(7)?",
+      "choices": {
+        "A": "No. That module serial number must not be listed on more than one aircraft registration certificate at the same time.",
+        "B": "Yes. Physical movement of the module makes duplicate active listings permissible.",
+        "C": "Yes. A company may use any one module serial number for its whole Part 107 fleet."
+      },
+      "domain": "Regulations",
+      "correct": "A",
+      "unscored": false,
+      "explanation": "Why A works: The section expressly prohibits listing the module serial number on more than one registration certificate simultaneously. A planned physical swap does not remove that record requirement.\nWhy B is incorrect: Not using the module on both flights at once is different from its simultaneous registration listing.\nWhy C is incorrect: Separate Part 107 aircraft records do not become one certificate because the owner is the same.\nReference: 14 CFR § 48.110 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/section-48.110\nReference: 14 CFR § 89.115 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/section-89.115"
+    },
+    {
+      "id": "FAA107-T14-Q024",
+      "prompt": "An observer sees intermittent flashes near a parked aircraft and reports that it is moving. A rotating airport beacon sweeps through the same view. What information best helps resolve the report?",
+      "choices": {
+        "A": "An assumption that every flashing light belongs to an airborne aircraft.",
+        "B": "The number of flashes alone, without checking the aircraft's position.",
+        "C": "The aircraft's position relative to stable nearby references across successive observations."
+      },
+      "domain": "Operations",
+      "correct": "C",
+      "unscored": true,
+      "explanation": "Why C works: Independent positional references help distinguish actual movement from changing illumination.\nWhy A is incorrect: Beacons, vehicles, and parked equipment can produce or reflect flashing light.\nWhy B is incorrect: A flash count does not show displacement of the aircraft.\nReference: FAA Pilot’s Handbook of Aeronautical Knowledge, chs. 2 and 17, Decision-Making and Aeromedical Factors — https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak\nReference: FAA AIM, §8-1-6, Vision in Flight — https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"
+    },
+    {
+      "id": "FAA107-T14-Q025",
+      "prompt": "A Category 4 aircraft's approved operating limitations permit the intended over-people operation only in daylight. The client reschedules it to night and provides compliant anti-collision lighting. Is that lighting alone enough to use the same Category 4 plan?",
+      "choices": {
+        "A": "Yes. Meeting §107.29 automatically changes the approved aircraft limitations.",
+        "B": "No. The aircraft's daylight operating limitation must also be satisfied.",
+        "C": "Yes. Category 4 status removes every daylight limitation in the manual."
+      },
+      "domain": "Regulations",
+      "correct": "B",
+      "unscored": false,
+      "explanation": "Why B works: Category 4 requires compliance with the applicable approved operating limitations. General night lighting does not amend a daylight-only limitation.\nWhy A is incorrect: A general operational rule does not rewrite an aircraft-specific approved limitation.\nWhy C is incorrect: Category 4 relies on those limitations rather than overriding them.\nReference: 14 CFR § 107.140 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.140"
+    },
+    {
+      "id": "FAA107-T14-Q026",
+      "prompt": "A fixed-wing drone is above its usual wings-level stall speed when a sharp maneuver demands a high angle of attack. Can the wing still stall?",
+      "choices": {
+        "A": "No. Any speed above the reference guarantees attached airflow.",
+        "B": "Yes. Exceeding the critical angle of attack can stall the wing even above that reference speed.",
+        "C": "No. A stall occurs only after the motor stops."
+      },
+      "domain": "Operations",
+      "correct": "B",
+      "unscored": false,
+      "explanation": "Why B works: A stall follows exceeding the wing's critical angle of attack. A reference stall speed applies to a particular condition and does not guarantee protection during every maneuver.\nWhy A is incorrect: The maneuver can raise the required angle of attack and load factor.\nWhy C is incorrect: An aerodynamic wing stall is different from an engine or motor stoppage.\nReference: FAA Pilot’s Handbook of Aeronautical Knowledge, ch. 5, Aerodynamics of Flight — https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+    },
+    {
+      "id": "FAA107-T14-Q027",
+      "prompt": "A Flight Service specialist provides a weather briefing and advises the crew to review controlled airspace at the site. The crew has no issued airspace authorization. Does receiving the briefing establish §107.41 authorization?",
+      "choices": {
+        "A": "Yes. Any FAA-related briefing automatically approves the planned airspace.",
+        "B": "Yes. A record of the briefing is equivalent to a LAANC approval.",
+        "C": "No. Obtain the applicable ATC authorization through the appropriate process."
+      },
+      "domain": "Airspace Classification and Operating Requirements",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: A briefing provides information. The separate ATC authorization requirement must also be satisfied when applicable.\nWhy A is incorrect: Providing aviation information does not itself grant the requested airspace use.\nWhy B is incorrect: A briefing record does not substitute for an issued authorization.\nReference: FAA AIM, §§4-1-3 and 4-1-9, Flight Service and traffic advisories — https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap4_section_1.html\nReference: 14 CFR § 107.41 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.41\nReference: FAA, Part 107 Airspace Authorizations — https://www.faa.gov/uas/commercial_operators/part_107_airspace_authorizations"
+    },
+    {
+      "id": "FAA107-T14-Q028",
+      "prompt": "A drone will release a lightweight marker toward an empty target. The predicted drop path first passes through an occupied work area, and wind could carry the marker into workers. Does the empty intended target alone satisfy the dropping rule?",
+      "choices": {
+        "A": "Yes. Only the intended point of impact matters.",
+        "B": "Yes. A lightweight object is automatically outside §107.23(b).",
+        "C": "No. The release must avoid an undue hazard along the actual drop path as well."
+      },
+      "domain": "Regulations",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: Section 107.23(b) concerns an undue hazard from dropping an object. The actual path and foreseeable effects matter in addition to the intended target.\nWhy A is incorrect: An empty target does not remove hazards before the object reaches it.\nWhy B is incorrect: The section does not establish a blanket exemption for objects described as lightweight.\nReference: 14 CFR § 107.23 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.23"
+    },
+    {
+      "id": "FAA107-T14-Q029",
+      "prompt": "A chart image and its scale bar are enlarged together. On the reproduced page, a 1-nautical-mile bar measures 4 cm and a route measures 10 cm. What route distance follows from that bar?",
+      "choices": {
+        "A": "4 nautical miles.",
+        "B": "2.5 nautical miles.",
+        "C": "10 nautical miles."
+      },
+      "domain": "Airspace Classification and Operating Requirements",
+      "correct": "B",
+      "unscored": false,
+      "explanation": "Why B works: The route is 10 ÷ 4 = 2.5 bar lengths. Each bar still represents 1 nautical mile when the map and bar are scaled together.\nWhy A is incorrect: The printed bar's length is a page measurement rather than the route's represented ground distance.\nWhy C is incorrect: Centimeters on a resized page are not automatically nautical miles.\nReference: FAA Aeronautical Chart Users’ Guide, July 9, 2026, VFR Terms and Symbols — https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/aero_guide/\nReference: FAA Pilot’s Handbook of Aeronautical Knowledge, ch. 16, Navigation — https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+    },
+    {
+      "id": "FAA107-T14-Q030",
+      "prompt": "An emergency requires a Part 107 deviation and also damages another person's repairable property by $900. No one is injured. The FAA has not yet requested an emergency-deviation report. Which reporting duty already applies?",
+      "choices": {
+        "A": "Report the qualifying safety event within 10 calendar days. A written deviation report is separately owed if the FAA requests it.",
+        "B": "Wait for an FAA request before reporting any part of the event.",
+        "C": "The emergency deviation automatically removes the safety-event reporting duty."
+      },
+      "domain": "Regulations",
+      "correct": "A",
+      "unscored": false,
+      "explanation": "Why A works: The property damage triggers §107.9 independently. Section 107.21(b) makes the written deviation report dependent on a request.\nWhy B is incorrect: The safety-event provision has its own trigger and deadline.\nWhy C is incorrect: Emergency authority does not erase the separate reporting provision.\nReference: 14 CFR § 107.9 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.9\nReference: 14 CFR § 107.21 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.21"
+    },
+    {
+      "id": "FAA107-T14-Q031",
+      "prompt": "Two approved training setups have equal mass and draw a constant 100 watts. Pack A is 12 volts at 4 amp-hours, while Pack B is 24 volts at 3 amp-hours. Reserve 20 percent of each pack's nominal energy. Use watt-hours = volts × amp-hours. Which usable endurance estimate is correct?",
+      "choices": {
+        "A": "A gives about 34.6 minutes and B about 23.0 minutes.",
+        "B": "A gives about 23.0 minutes and B about 34.6 minutes.",
+        "C": "A lasts longer solely because 4 amp-hours exceeds 3 amp-hours."
+      },
+      "domain": "Loading and Performance",
+      "correct": "B",
+      "unscored": true,
+      "explanation": "Why B works: A has 48 Wh nominal and 38.4 Wh usable, giving 38.4 ÷ 100 × 60 = 23.04 minutes. B has 72 Wh nominal and 57.6 Wh usable, giving 34.56 minutes.\nWhy A is incorrect: That swaps the two packs' voltage-dependent energy results.\nWhy C is incorrect: Amp-hours alone cannot compare energy when the pack voltages differ.\nReference: FAA Pilot’s Handbook of Aeronautical Knowledge, ch. 11, Aircraft Performance — https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak\nReference: FAA AC 107-2A, Small Unmanned Aircraft System — https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2A.pdf"
+    },
+    {
+      "id": "FAA107-T14-Q032",
+      "prompt": "A standard Remote ID design proposal omits error correction because its test flights all occurred near the receiving device with a strong signal. Does that reasoning satisfy §89.310(e)?",
+      "choices": {
+        "A": "Yes. A strong signal makes the error-correction provision optional.",
+        "B": "No. The equipment must incorporate error correction in the broadcast of the required message elements.",
+        "C": "Yes. Error correction is required only for a broadcast module, never for standard Remote ID."
+      },
+      "domain": "Regulations",
+      "correct": "B",
+      "unscored": false,
+      "explanation": "Why B works: Section 89.310(e) expressly requires error correction. Favorable results in limited signal conditions do not remove that requirement.\nWhy A is incorrect: The rule does not condition the requirement on a particular field-test signal strength.\nWhy C is incorrect: The cited section governs standard Remote ID and includes this requirement.\nReference: 14 CFR § 89.310 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/section-89.310"
+    },
+    {
+      "id": "FAA107-T14-Q033",
+      "prompt": "Category 2 operating instructions list certain modifications that preserve eligibility. A proposed arm replacement is not on that list and has not otherwise been assessed. What should the pilot establish before a Category 2 flight with that arm?",
+      "choices": {
+        "A": "That the resulting configuration still meets the applicable Category 2 requirements.",
+        "B": "That any replacement fitting the same screw holes is automatically eligible.",
+        "C": "That the prior aircraft label alone authorizes every future modification."
+      },
+      "domain": "Regulations",
+      "correct": "A",
+      "unscored": false,
+      "explanation": "Why A works: The instructions identify modifications that preserve eligibility, while the preflight duty requires actual applicable eligibility. An unassessed change needs resolution.\nWhy B is incorrect: Mechanical fit alone does not establish the declared injury and safety characteristics.\nWhy C is incorrect: A label does not establish compliance after an arbitrary configuration change.\nReference: 14 CFR § 107.120 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.120\nReference: 14 CFR § 107.49 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.49"
+    },
+    {
+      "id": "FAA107-T14-Q034",
+      "prompt": "Written scenario data: Training configurations: base aircraft weight 6.0 lb, maximum gross 12.0 lb, maximum 3.0 lb per individual mount. Birch mounts weigh 2.5 lb each; Alder has a 4.0-lb mount; Cedar has individually acceptable mounts plus a center payload bringing total to 13.0 lb.\n\nThe written scenario data provide the fictional aircraft and payload limits. The aircraft without these payloads weighs 6.0 pounds. The maximum loaded weight is 12.0 pounds and each hardpoint may carry at most 3.0 pounds. Which setup meets both kinds of limit?",
+      "choices": {
+        "A": "Cedar only.",
+        "B": "Alder only.",
+        "C": "Birch only."
+      },
+      "domain": "Loading and Performance",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: Birch totals 6.0 + 2.5 + 2.5 = 11.0 pounds, with each mount below 3.0 pounds.\nWhy A is incorrect: Cedar's mounts each meet 3.0 pounds, but its additional 1.0-pound center payload raises gross weight to 13.0 pounds.\nWhy B is incorrect: Alder's total is within 12.0 pounds, but one mount carries 4.0 pounds and exceeds its local limit.\nReference: FAA Pilot’s Handbook of Aeronautical Knowledge, ch. 11, Aircraft Performance — https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak\nReference: FAA Pilot’s Handbook of Aeronautical Knowledge, ch. 10, Weight and Balance — https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak\nReference: FAA AC 107-2A, Small Unmanned Aircraft System — https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2A.pdf",
+      "textOnlyAdaptation": true
+    },
+    {
+      "id": "FAA107-T14-Q035",
+      "prompt": "An airspace authorization covers 1500Z–1640Z. A separately required waiver condition permits the operation only during 1530Z–1700Z. A 50-minute mission must remain within both permissions from takeoff to landing. Which proposed start time fits?",
+      "choices": {
+        "A": "1540Z.",
+        "B": "1520Z.",
+        "C": "1600Z."
+      },
+      "domain": "Airspace Classification and Operating Requirements",
+      "correct": "A",
+      "unscored": false,
+      "explanation": "Why A works: The shared interval is 1530Z–1640Z. Starting at 1540Z ends at 1630Z, within both.\nWhy B is incorrect: 1520Z is before the waiver condition's permitted start.\nWhy C is incorrect: Starting at 1600Z ends at 1650Z, after the airspace authorization ends.\nReference: 14 CFR § 107.41 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.41\nReference: 14 CFR § 107.200 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.200"
+    },
+    {
+      "id": "FAA107-T14-Q036",
+      "prompt": "The normal route lies above an empty private field. The programmed response to a control failure would carry the aircraft onto a busy road before landing. Which part of the plan needs attention?",
+      "choices": {
+        "A": "Only whether the landowner accepts possible damage to the drone.",
+        "B": "The loss-of-control outcome, even though the intended route stays over the empty field.",
+        "C": "Only the intended route, because a failure path is outside the pilot's duty."
+      },
+      "domain": "Regulations",
+      "correct": "B",
+      "unscored": false,
+      "explanation": "Why B works: Section 107.19(c) requires attention to undue hazard in the event of loss of control. The preflight assessment also includes persons, property, and ground hazards.\nWhy A is incorrect: A landowner's consent does not address the hazard to road users.\nWhy C is incorrect: The loss-of-control duty explicitly reaches beyond the normal commanded route.\nReference: 14 CFR § 107.19 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.19\nReference: 14 CFR § 107.49 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.49"
+    },
+    {
+      "id": "FAA107-T14-Q037",
+      "prompt": "An aviation VHF radio is available and an emergency transmission cannot be established on the assigned frequency. Which frequency is designated for civil aviation emergency communication?",
+      "choices": {
+        "A": "121.5 MHz.",
+        "B": "122.75 MHz.",
+        "C": "123.45 MHz."
+      },
+      "domain": "Operations",
+      "correct": "A",
+      "unscored": false,
+      "explanation": "Why A works: 121.5 MHz is the designated VHF emergency frequency. Use the appropriate emergency communication procedure.\nWhy B is incorrect: 122.75 MHz is not the designated civil emergency frequency.\nWhy C is incorrect: 123.45 MHz is not the designated civil emergency frequency.\nReference: FAA AIM, §4-2, Radio Communications Phraseology and Techniques — https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap4_section_2.html\nReference: FAA AIM, §6-3-1, Distress and Urgency Communications — https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap6_section_3.html"
+    },
+    {
+      "id": "FAA107-T14-Q038",
+      "prompt": "A NOTAM closes one taxiway at an airport. It does not establish a drone flight restriction or close the airport's runways. Which conclusion follows from that notice alone?",
+      "choices": {
+        "A": "The taxiway is closed. Other airport operations and applicable flight requirements must be checked separately.",
+        "B": "The notice closes all airspace above the airport.",
+        "C": "The notice proves that no crewed aircraft can operate anywhere at the airport."
+      },
+      "domain": "Airspace Classification and Operating Requirements",
+      "correct": "A",
+      "unscored": false,
+      "explanation": "Why A works: A taxiway status notice applies to the surface feature and activity it identifies. It does not automatically create broader closures.\nWhy B is incorrect: Closing a taxiway does not, by that fact alone, close all overlying airspace.\nWhy C is incorrect: Other pavement and runways can remain available despite the taxiway closure.\nReference: FAA, NOTAM Search — https://notams.aim.faa.gov/notamSearch/\nReference: FAA, Chart Supplements — https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/dafd/"
+    },
+    {
+      "id": "FAA107-T14-Q039",
+      "prompt": "A small unmanned aircraft uses a fuel-powered engine instead of an electric propulsion battery. Does the §107.49(d) available-power requirement still apply to that aircraft?",
+      "choices": {
+        "A": "No. The requirement applies only when propulsion uses a lithium battery.",
+        "B": "No. Using an engine removes the entire preflight familiarization requirement.",
+        "C": "Yes. The remote PIC must ensure enough available power for the intended operational time."
+      },
+      "domain": "Regulations",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: Section 107.49(d) applies when the small unmanned aircraft is powered. It does not limit the requirement to electric propulsion or a particular battery chemistry.\nWhy A is incorrect: The text is not restricted to lithium-battery aircraft.\nWhy B is incorrect: The type of propulsion does not remove the other preflight duties.\nReference: 14 CFR § 107.49 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.49"
+    },
+    {
+      "id": "FAA107-T14-Q040",
+      "prompt": "A small drone has an effective FAA Part 47 registration and the required Part 45 markings. It will fly domestically under Part 107. The operator cannot find a separate Part 48 DroneZone registration. Does that missing duplicate record alone mean the aircraft is unregistered?",
+      "choices": {
+        "A": "Yes. An N-number is valid only for aircraft that carry a person.",
+        "B": "No. The effective Part 47 registration can meet the FAA registration requirement.",
+        "C": "Yes. Every small drone must be registered under both Part 47 and Part 48 simultaneously."
+      },
+      "domain": "Regulations",
+      "correct": "B",
+      "unscored": false,
+      "explanation": "Why B works: Section 48.1 permits either the Part 48 pathway or the applicable Part 47 and Part 45 pathway. A duplicate Part 48 registration is not required on these facts.\nWhy A is incorrect: The Part 47 pathway also applies to qualifying unmanned aircraft.\nWhy C is incorrect: The alternative pathways do not require two simultaneous aircraft registrations.\nReference: 14 CFR § 107.13 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.13\nReference: 14 CFR § 48.1 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/section-48.1"
+    },
+    {
+      "id": "FAA107-T14-Q041",
+      "prompt": "A waiver permits a specified deviation from the VLOS rule. It expressly says separate airspace authorizations remain the operator's responsibility. The planned route enters a Class C surface area. What additional permission is needed?",
+      "choices": {
+        "A": "None, because every operational waiver grants all airspace permission.",
+        "B": "Only the airport's weather observation.",
+        "C": "Applicable prior ATC authorization for that controlled-airspace operation."
+      },
+      "domain": "Airspace Classification and Operating Requirements",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: The waiver's express scope leaves the §107.41 requirement in place. The pilot needs the applicable airspace authorization.\nWhy A is incorrect: A VLOS waiver is not automatically permission to enter controlled airspace.\nWhy B is incorrect: Weather information does not grant airspace access.\nReference: 14 CFR § 107.41 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.41\nReference: 14 CFR § 107.200 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.200\nReference: FAA, Part 107 Airspace Authorizations — https://www.faa.gov/uas/commercial_operators/part_107_airspace_authorizations"
+    },
+    {
+      "id": "FAA107-T14-Q042",
+      "prompt": "The controller instructions require its antenna to be fully unfolded for the intended flight. A new protective case blocks that position, although short-range bench communication still works. What should happen before flight?",
+      "choices": {
+        "A": "Cut a random opening through the case and antenna assembly without consulting the instructions.",
+        "B": "Resolve the obstruction and verify the instructed antenna configuration.",
+        "C": "Keep the antenna partly folded because a close-range link proves every required configuration is acceptable."
+      },
+      "domain": "Operations",
+      "correct": "B",
+      "unscored": false,
+      "explanation": "Why B works: The accessory prevents the required deployment. A bench link does not establish the specified flight configuration or expected link performance.\nWhy A is incorrect: Unassessed modification can damage equipment and does not verify the proper installation.\nWhy C is incorrect: Short-range contact is not a substitute for complying with the deployment requirement.\nReference: FAA AC 107-2A, Small Unmanned Aircraft System — https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2A.pdf"
+    },
+    {
+      "id": "FAA107-T14-Q043",
+      "prompt": "A standard Remote ID drone is hovering at zero groundspeed. Its broadcast software omits the velocity element whenever the value is zero. No special authorization applies. What must be corrected?",
+      "choices": {
+        "A": "Nothing, because required fields become optional whenever the aircraft hovers.",
+        "B": "Only the aircraft's external registration mark needs a velocity label.",
+        "C": "The required velocity indication must still be broadcast, including a valid zero value when appropriate."
+      },
+      "domain": "Regulations",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: Section 89.305 includes an indication of velocity among the standard message elements. A value of zero does not remove the element.\nWhy A is incorrect: Hovering does not eliminate the listed message requirement.\nWhy B is incorrect: The external registration mark is unrelated to the broadcast velocity field.\nReference: 14 CFR § 89.305 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/section-89.305\nReference: 14 CFR § 89.110 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/section-89.110"
+    },
+    {
+      "id": "FAA107-T14-Q044",
+      "prompt": "A paid drone delivery of another person's package remains entirely within one U.S. territory. The pilot will operate from a moving boat over a sparsely populated area. No waiver applies. Does satisfying the territory condition alone make the moving-boat plan compliant?",
+      "choices": {
+        "A": "No. The moving-vessel exception excludes transporting another person's property for compensation or hire.",
+        "B": "Yes. Sparse population is the only condition for operating from a moving boat.",
+        "C": "Yes. Staying within one territory removes the moving-platform restriction."
+      },
+      "domain": "Regulations",
+      "correct": "A",
+      "unscored": false,
+      "explanation": "Why A works: The carriage geography and moving-platform conditions apply independently. Section 107.25(b) imposes both sparse-area and property-carriage conditions.\nWhy B is incorrect: The exception includes another condition beyond population density.\nWhy C is incorrect: Meeting the geographic condition does not amend §107.25.\nReference: 14 CFR § 107.1 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.1\nReference: 14 CFR § 107.25 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.25"
+    },
+    {
+      "id": "FAA107-T14-Q045",
+      "prompt": "Written scenario data: Site P's Class C upper boundary is charted at 4,100 ft MSL and includes that altitude. Site Q's Class D upper boundary shows [-41], denoting that 4,100 ft MSL is excluded. Both hypothetical aircraft are at 4,100 ft MSL.\n\nThe fictional airport airspace panels in the written scenario data show two separate sites. At each, the drone would be 4,100 feet MSL and 300 feet AGL. Assume all other limits are met. At which site is the drone still inside the described airport airspace and therefore subject to §107.41 for that area?",
+      "choices": {
+        "A": "Both sites.",
+        "B": "Site P only.",
+        "C": "Site Q only."
+      },
+      "domain": "Airspace Classification and Operating Requirements",
+      "correct": "B",
+      "unscored": false,
+      "explanation": "Why B works: P is at the included 4,100-foot Class C ceiling. Q is at the excluded ceiling denoted by [-41], so it is outside that depicted Class D area at exactly 4,100 feet MSL.\nWhy A is incorrect: The two notations do not treat the ceiling the same way.\nWhy C is incorrect: The minus sign excludes Q's stated Class D upper altitude.\nReference: FAA Aeronautical Chart Users’ Guide, July 9, 2026, VFR Terms and Symbols — https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/aero_guide/\nReference: FAA AIM, §3-2, Controlled Airspace — https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap3_section_2.html\nReference: 14 CFR § 107.41 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.41",
+      "textOnlyAdaptation": true
+    },
+    {
+      "id": "FAA107-T14-Q046",
+      "prompt": "A waiver expressly permits the pilot to command two drones under stated conditions. One of the drones develops a known unsafe condition. Does the multiple-aircraft relief authorize completing its remaining route?",
+      "choices": {
+        "A": "Yes. The drone may finish whenever the second aircraft is working normally.",
+        "B": "Yes. Permission to command two aircraft includes permission to accept any mechanical fault.",
+        "C": "No. The independent prohibition on continuing an unsafe flight still applies."
+      },
+      "domain": "Regulations",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: A waiver must be read within its scope. Relief from the simultaneous-role rule does not waive §107.15's unsafe-continuation prohibition.\nWhy A is incorrect: A second aircraft's condition does not make the faulty aircraft safe.\nWhy B is incorrect: The stated relief concerns the number of aircraft, not arbitrary equipment failures.\nReference: 14 CFR § 107.35 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.35\nReference: 14 CFR § 107.15 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.15\nReference: 14 CFR § 107.200 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.200"
+    },
+    {
+      "id": "FAA107-T14-Q047",
+      "prompt": "The dispatch screen shows 95% beside a controller icon and 26% beside an aircraft icon. The operator's procedure requires at least 80% aircraft battery at launch. Which reading governs that requirement?",
+      "choices": {
+        "A": "The controller's 95%, because the larger displayed value represents the whole system.",
+        "B": "The aircraft's 26%, which does not meet the launch criterion.",
+        "C": "The average of both percentages, because the batteries share one energy supply."
+      },
+      "domain": "Operations",
+      "correct": "B",
+      "unscored": false,
+      "explanation": "Why B works: The requirement refers to the aircraft battery. The icon distinguishes that battery from the controller's separate supply.\nWhy A is incorrect: The largest displayed percentage is not automatically the aircraft's state of charge.\nWhy C is incorrect: The two batteries are separate supplies. Averaging their percentages does not establish aircraft energy.\nReference: FAA AC 107-2A, Small Unmanned Aircraft System — https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2A.pdf\nReference: FAA Pilot’s Handbook of Aeronautical Knowledge, chs. 2 and 17, Decision-Making and Aeromedical Factors — https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+    },
+    {
+      "id": "FAA107-T14-Q048",
+      "prompt": "A U.S. remote pilot takes a U.S.-registered drone to a job conducted entirely in another country's airspace. Does the FAA Part 107 certificate by itself authorize that foreign operation?",
+      "choices": {
+        "A": "Yes. A U.S. certificate authorizes flight in every country where the drone can receive satellite signals.",
+        "B": "Yes. U.S. aircraft registration converts the foreign worksite into U.S. airspace.",
+        "C": "No. Part 107's U.S. framework does not by itself grant authority in another country."
+      },
+      "domain": "Regulations",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: Part 107 addresses the specified operations within the United States. The certificate alone does not establish permission under another country's requirements.\nWhy A is incorrect: Satellite reception is unrelated to a country's authorization of an operation.\nWhy B is incorrect: Aircraft registration does not change the sovereignty of the airspace.\nReference: 14 CFR § 107.1 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.1"
+    },
+    {
+      "id": "FAA107-T14-Q049",
+      "prompt": "A drone hovers below a Class B shelf. A planned climb would enter that shelf while staying at exactly the same latitude and longitude. With no applicable authorization, what must the pilot account for?",
+      "choices": {
+        "A": "A stationary map position prevents any airspace-class change.",
+        "B": "The climb crosses the vertical boundary into Class B even without lateral movement.",
+        "C": "A Class B shelf applies only to aircraft moving horizontally."
+      },
+      "domain": "Airspace Classification and Operating Requirements",
+      "correct": "B",
+      "unscored": false,
+      "explanation": "Why B works: Airspace has vertical as well as lateral limits. A climb can enter an overlying shelf without changing the plan-view point.\nWhy A is incorrect: Latitude and longitude do not specify altitude or the complete airspace position.\nWhy C is incorrect: A shelf's vertical volume applies to a hovering or climbing aircraft as well.\nReference: FAA AIM, §3-2, Controlled Airspace — https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap3_section_2.html\nReference: 14 CFR § 107.41 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.41"
+    },
+    {
+      "id": "FAA107-T14-Q050",
+      "prompt": "A weather update gives sustained wind of 12 knots with gusts to 24 knots. The aircraft instructions prohibit launch when gusts exceed 20 knots. Which value controls this launch decision?",
+      "choices": {
+        "A": "The 18-knot average of sustained wind and gust, because the limit always uses an average.",
+        "B": "The 24-knot gust, which exceeds the stated limit.",
+        "C": "The 12-knot sustained value, because gusts do not count in aircraft instructions."
+      },
+      "domain": "Weather",
+      "correct": "B",
+      "unscored": false,
+      "explanation": "Why B works: The instructions explicitly specify gusts. The reported 24-knot gust exceeds that criterion even though sustained wind is lower.\nWhy A is incorrect: Averaging changes the criterion instead of applying the aircraft instructions.\nWhy C is incorrect: The stated criterion includes gusts rather than limiting the check to the sustained value.\nReference: FAA-H-8083-28B, Aviation Weather Handbook — https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook\nReference: FAA AC 107-2A, Small Unmanned Aircraft System — https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2A.pdf"
+    },
+    {
+      "id": "FAA107-T14-Q051",
+      "prompt": "The crew's arming procedure requires the launch assistant to report “Hands clear.” The assistant is silent after moving behind the aircraft. What should the pilot do?",
+      "choices": {
+        "A": "Arm because moving behind the aircraft proves every person's hands are clear.",
+        "B": "Obtain the required clear confirmation before arming.",
+        "C": "Interpret silence as the required confirmation."
+      },
+      "domain": "Operations",
+      "correct": "B",
+      "unscored": false,
+      "explanation": "Why B works: The agreed procedure uses a positive confirmation. Position alone and silence do not establish that the check has been completed.\nWhy A is incorrect: One person's visible movement does not confirm the full condition the call is meant to verify.\nWhy C is incorrect: Silence can indicate a missed call or an unfinished task.\nReference: FAA Pilot’s Handbook of Aeronautical Knowledge, chs. 2 and 17, Decision-Making and Aeromedical Factors — https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak\nReference: FAA AC 107-2A, Small Unmanned Aircraft System — https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2A.pdf"
+    },
+    {
+      "id": "FAA107-T14-Q052",
+      "prompt": "A restricted circle has a 2.0-nautical-mile radius. The operator requires an additional 0.3-nautical-mile horizontal buffer outside it. Three straight candidate legs have verified closest distances from the circle's center of 2.2, 2.3, and 2.5 nautical miles. Which legs meet that stated buffer?",
+      "choices": {
+        "A": "The 2.3- and 2.5-nautical-mile legs.",
+        "B": "All three legs.",
+        "C": "Only the 2.5-nautical-mile leg."
+      },
+      "domain": "Airspace Classification and Operating Requirements",
+      "correct": "A",
+      "unscored": false,
+      "explanation": "Why A works: The minimum acceptable closest distance is 2.0 + 0.3 = 2.3 NM. Equality meets the stated buffer, so the last two legs qualify.\nWhy B is incorrect: The 2.2-NM leg leaves only 0.2 NM outside the circle.\nWhy C is incorrect: A minimum of 2.3 includes a leg whose verified closest distance equals 2.3.\nReference: 14 CFR § 107.47 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.47\nReference: FAA, Temporary Flight Restrictions — https://tfr.faa.gov/tfr3/\nReference: FAA Pilot’s Handbook of Aeronautical Knowledge, ch. 16, Navigation — https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+    },
+    {
+      "id": "FAA107-T14-Q053",
+      "prompt": "Which description is characteristic of the mature stage of a thunderstorm?",
+      "choices": {
+        "A": "Only a weakening downdraft and no remaining upward motion.",
+        "B": "Strong updrafts and downdrafts with precipitation.",
+        "C": "Uniform gentle sinking air with no precipitation or turbulence."
+      },
+      "domain": "Weather",
+      "correct": "B",
+      "unscored": false,
+      "explanation": "Why B works: The mature stage features both updrafts and precipitation-driven downdrafts, with significant associated hazards.\nWhy A is incorrect: A downdraft-dominated weakening storm describes the dissipating stage rather than the mature stage.\nWhy C is incorrect: A mature thunderstorm can produce substantial precipitation and turbulence.\nReference: FAA-H-8083-28B, Aviation Weather Handbook — https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook"
+    },
+    {
+      "id": "FAA107-T14-Q054",
+      "prompt": "An authorization limits the drone to 180 feet AGL. In the planned mode, the verified altitude error can put it 12 feet above the commanded height. Which of these setpoints accounts for that entire stated upward error without exceeding the ceiling?",
+      "choices": {
+        "A": "175 feet AGL.",
+        "B": "168 feet AGL.",
+        "C": "180 feet AGL."
+      },
+      "domain": "Airspace Classification and Operating Requirements",
+      "correct": "B",
+      "unscored": true,
+      "explanation": "Why B works: A 168-foot setpoint plus the stated 12-foot upward error equals 180 feet. The other choices can exceed the ceiling.\nWhy A is incorrect: 175 + 12 = 187 feet, above the authorized maximum.\nWhy C is incorrect: Commanding the ceiling leaves no allowance for the stated upward error.\nReference: 14 CFR § 107.41 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.41\nReference: FAA, Part 107 Airspace Authorizations — https://www.faa.gov/uas/commercial_operators/part_107_airspace_authorizations\nReference: FAA AC 107-2A, Small Unmanned Aircraft System — https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2A.pdf"
+    },
+    {
+      "id": "FAA107-T14-Q055",
+      "prompt": "Written scenario data: The two night-operation test criteria each require at least 3 statute miles: flight visibility and anti-collision light visibility. Cedar meets both. Birch has only 2.8 SM light range. Alder has only 2.7 SM flight visibility.\n\nAll pilots in the written scenario data meet the night knowledge requirement, and every light has an adequate flash rate. No intensity-reduction exception or waiver applies. Which setup meets both listed nighttime visibility and anti-collision light-range minima?",
+      "choices": {
+        "A": "Setup Cedar only.",
+        "B": "Setup Birch only.",
+        "C": "Setup Alder only."
+      },
+      "domain": "Regulations",
+      "correct": "A",
+      "unscored": false,
+      "explanation": "Why A works: Cedar meets both 3-statute-mile minima. Each of the other setups falls below one independent minimum.\nWhy B is incorrect: Birch's anti-collision light range is only 2.8 statute miles even though flight visibility is sufficient.\nWhy C is incorrect: Alder's flight visibility is only 2.7 statute miles even though its light range is sufficient.\nReference: 14 CFR § 107.29 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.29\nReference: 14 CFR § 107.51 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.51",
+      "textOnlyAdaptation": true
+    },
+    {
+      "id": "FAA107-T14-Q056",
+      "prompt": "During a long scan over a featureless bright sky, a pilot realizes the eyes are not focusing at a useful distance. Which technique can help?",
+      "choices": {
+        "A": "Periodically focus on a suitable distant landmark, then resume a systematic scan.",
+        "B": "Look only at the nearby controller for the rest of the leg.",
+        "C": "Stare at one empty patch of sky without changing focus."
+      },
+      "domain": "Operations",
+      "correct": "A",
+      "unscored": false,
+      "explanation": "Why A works: A distant reference can help establish distance focus during scanning and reduce empty-field myopia.\nWhy B is incorrect: A near display does not replace the needed outside traffic scan.\nWhy C is incorrect: Unchanging fixation does not restore a useful distance focus or provide a systematic scan.\nReference: FAA Pilot’s Handbook of Aeronautical Knowledge, chs. 2 and 17, Decision-Making and Aeromedical Factors — https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak\nReference: FAA AIM, §8-1-6, Vision in Flight — https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"
+    },
+    {
+      "id": "FAA107-T14-Q057",
+      "prompt": "A crew briefs a job on Monday for a Friday flight. An official airspace amendment becomes effective Thursday. Which airspace description should govern Friday's planning?",
+      "choices": {
+        "A": "The description effective for Friday, including the Thursday change.",
+        "B": "Monday's description, because it was used in the signed briefing.",
+        "C": "Whichever description results in the fewest approval steps."
+      },
+      "domain": "Airspace Classification and Operating Requirements",
+      "correct": "A",
+      "unscored": false,
+      "explanation": "Why A works: The operation occurs after the amendment becomes effective. The planning information must match the operating date.\nWhy B is incorrect: A completed earlier briefing does not freeze the applicable airspace.\nWhy C is incorrect: Administrative convenience does not determine which description is effective.\nReference: FAA Aeronautical Chart Users’ Guide, July 9, 2026, VFR Terms and Symbols — https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/aero_guide/\nReference: FAA, NOTAM Search — https://notams.aim.faa.gov/notamSearch/"
+    },
+    {
+      "id": "FAA107-T14-Q058",
+      "prompt": "Written scenario data: The fictional ground-test record contains only warm-temperature tests with payload Maple and cool-temperature tests with payload Alder. Sensor alerts occurred in the warm/Maple condition; the factors were not independently varied.\n\nThe written scenario data summarize safe, approved ground tests after a sensor alert. Both payload and temperature changed between the tested conditions. Which conclusion is justified before choosing a cause-specific repair?",
+      "choices": {
+        "A": "The records prove temperature alone caused the alert, regardless of payload.",
+        "B": "The records prove Maple alone caused the alert, regardless of temperature.",
+        "C": "The results associate the alert with the warm/Maple combination but do not isolate temperature from payload. Use the approved troubleshooting process to separate those factors."
+      },
+      "domain": "Operations",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: Every warm test uses Maple and every cool test uses Alder. The observations cannot distinguish the two factors without additional appropriately controlled evidence.\nWhy A is incorrect: The same missing comparisons prevent isolating temperature as the cause.\nWhy B is incorrect: No warm Alder or cool Maple condition is shown to separate a payload effect.\nReference: FAA AC 107-2A, Small Unmanned Aircraft System — https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2A.pdf\nReference: FAA Pilot’s Handbook of Aeronautical Knowledge, chs. 2 and 17, Decision-Making and Aeromedical Factors — https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+      "textOnlyAdaptation": true
+    },
+    {
+      "id": "FAA107-T14-Q059",
+      "prompt": "A drone damages a repairable equipment cart. The complete repair cost is $740, while its pre-event fair-market value was $300. The cart is not a total loss and there is no injury. Which amount applies to this §107.9 property-damage analysis?",
+      "choices": {
+        "A": "The $300 market value, which always replaces repair cost.",
+        "B": "The average of the two values, $520.",
+        "C": "The $740 repair cost, which exceeds $500."
+      },
+      "domain": "Regulations",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: For repairable property, the rule's repair-cost branch includes labor and materials. The fair-market-value branch applies in the event of total loss.\nWhy A is incorrect: The facts explicitly identify a repairable item rather than a total loss.\nWhy B is incorrect: The regulation does not prescribe averaging repair cost and market value.\nReference: 14 CFR § 107.9 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.9"
+    },
+    {
+      "id": "FAA107-T14-Q060",
+      "prompt": "Written scenario data: The chart's Mount Lemmon RCO box names Prescott as the associated Flight Service facility; other nearby boxes mention Tucson Approach and Davis-Monthan tower.\n\nWhich Flight Service facility is named with the Mount Lemmon RCO in the written scenario data?",
+      "choices": {
+        "A": "Davis-Monthan tower.",
+        "B": "Prescott.",
+        "C": "Tucson Approach."
+      },
+      "domain": "Airspace Classification and Operating Requirements",
+      "correct": "B",
+      "unscored": false,
+      "explanation": "Why B works: Prescott is printed in the RCO facility box beneath Mount Lemmon.\nWhy A is incorrect: The military tower is a different service from the RCO's named Flight Service facility.\nWhy C is incorrect: Tucson Approach appears in a separate contact note, not as the Flight Service facility named with this RCO.\nReference: FAA Aeronautical Chart Users’ Guide, July 9, 2026, VFR Terms and Symbols — https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/aero_guide/\nReference: FAA AIM, §§4-1-3 and 4-1-9, Flight Service and traffic advisories — https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap4_section_1.html\nReference: FAA VFR Raster Charts, Sectionals and effective dates — https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "textOnlyAdaptation": true
+    },
+    {
+      "id": "FAA107-T14-Q061",
+      "prompt": "For a night flight, a drone's steady red and green position lights can be seen from more than 3 statute miles. No flashing anti-collision light is installed and no waiver applies. Do the steady lights alone meet §107.29(a)(2)?",
+      "choices": {
+        "A": "No. The required anti-collision lighting must also have a flash rate sufficient to avoid a collision.",
+        "B": "Yes. Red and green colors replace the flash requirement.",
+        "C": "Yes. Range alone is the only lighting criterion."
+      },
+      "domain": "Regulations",
+      "correct": "A",
+      "unscored": false,
+      "explanation": "Why A works: Night lighting must satisfy both the visibility and flash requirements. Steady position lights do not establish the required anti-collision flash function.\nWhy B is incorrect: The rule does not substitute particular position-light colors for flashing anti-collision lighting.\nWhy C is incorrect: A sufficient range does not satisfy a missing flash requirement.\nReference: 14 CFR § 107.29 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.29"
+    },
+    {
+      "id": "FAA107-T14-Q062",
+      "prompt": "The kit contains a recovery card for a different aircraft model. Its emergency control sequence differs from the current model's instructions. What should be established before launch?",
+      "choices": {
+        "A": "The crew has and understands the current aircraft's applicable emergency procedure.",
+        "B": "The card is usable because both aircraft have four motors.",
+        "C": "The crew can improvise a matching sequence if a fault occurs."
+      },
+      "domain": "Operations",
+      "correct": "A",
+      "unscored": false,
+      "explanation": "Why A works: Emergency procedures depend on the system and controls involved. A model mismatch must be resolved before the card can be relied on.\nWhy B is incorrect: A shared number of motors does not establish identical control functions or procedures.\nWhy C is incorrect: Waiting for an emergency leaves the known procedure gap unresolved.\nReference: FAA AC 107-2A, Small Unmanned Aircraft System — https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2A.pdf\nReference: FAA Pilot’s Handbook of Aeronautical Knowledge, chs. 2 and 17, Decision-Making and Aeromedical Factors — https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+    },
+    {
+      "id": "FAA107-T14-Q063",
+      "prompt": "A technician says “Ready to arm,” then immediately discovers a tool still resting on the aircraft. The pilot has not armed yet. What communication is needed?",
+      "choices": {
+        "A": "A prompt, unambiguous stop call that cancels the ready status and identifies the tool hazard.",
+        "B": "A request to check the tool after takeoff because the first ready call is final.",
+        "C": "A quiet note for the postflight log without interrupting the pilot."
+      },
+      "domain": "Operations",
+      "correct": "A",
+      "unscored": false,
+      "explanation": "Why A works: The earlier readiness call could trigger arming. Immediately withdrawing it prevents the pilot from acting on information now known to be wrong.\nWhy B is incorrect: A readiness call is not irreversible when a hazard is discovered.\nWhy C is incorrect: A later record does not stop the impending unsafe action.\nReference: FAA Pilot’s Handbook of Aeronautical Knowledge, chs. 2 and 17, Decision-Making and Aeromedical Factors — https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak\nReference: FAA AC 107-2A, Small Unmanned Aircraft System — https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2A.pdf"
+    },
+    {
+      "id": "FAA107-T14-Q064",
+      "prompt": "A supervised trainee is manipulating the controls. The remote PIC says only the remote PIC is legally required to comply with the §107.51 operating limits. Is that accurate?",
+      "choices": {
+        "A": "Yes. The trainee is covered only after obtaining a certificate.",
+        "B": "Yes. Direct supervision exempts the trainee from those limits.",
+        "C": "No. The section expressly applies to the remote PIC and the person manipulating the controls."
+      },
+      "domain": "Regulations",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: Section 107.51 names both roles. Supervision provides a pathway to manipulate controls without independent pilot qualification, not relief from operating limits.\nWhy A is incorrect: The role exists and carries applicable duties even when the trainee is uncertificated.\nWhy B is incorrect: The supervised pathway does not authorize violations of those limits.\nReference: 14 CFR § 107.51 — https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/section-107.51"
+    },
+    {
+      "id": "FAA107-T14-Q065",
+      "prompt": "A preflight alternate was an empty loading bay. During flight, a delivery truck occupies it and starts unloading. The primary pad remains clear, and the crew can recover there now. What should the remote PIC do?",
+      "choices": {
+        "A": "Continue to count the bay as available because it passed the preflight check.",
+        "B": "Assume the truck will leave before the drone needs to land.",
+        "C": "Reassess the alternate's loss and preserve a safe recovery plan using current conditions."
+      },
+      "domain": "Operations",
+      "correct": "C",
+      "unscored": false,
+      "explanation": "Why C works: An alternate must remain usable when needed. Its changed occupancy removes the earlier assumption and calls for a current recovery decision.\nWhy A is incorrect: A past inspection does not reserve an area against later occupation.\nWhy B is incorrect: An unconfirmed future departure does not establish a usable recovery site.\nReference: FAA AC 107-2A, Small Unmanned Aircraft System — https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2A.pdf\nReference: FAA Pilot’s Handbook of Aeronautical Knowledge, chs. 2 and 17, Decision-Making and Aeromedical Factors — https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+    }
+  ]
+}

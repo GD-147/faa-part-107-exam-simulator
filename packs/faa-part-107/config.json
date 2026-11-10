@@ -5,6 +5,24 @@
   "practiceChunkSize": 30,
   "examFiles": [
     "faa-part-107_exam_01.json",
+    "faa-part-107_exam_02.json",
+    "faa-part-107_exam_03.json",
+    "faa-part-107_exam_04.json",
+    "faa-part-107_exam_05.json",
+    "faa-part-107_exam_06.json",
+    "faa-part-107_exam_07.json",
+    "faa-part-107_exam_08.json",
+    "faa-part-107_exam_09.json",
+    "faa-part-107_exam_10.json",
+    "faa-part-107_exam_11.json",
+    "faa-part-107_exam_12.json",
+    "faa-part-107_exam_13.json",
+    "faa-part-107_exam_14.json",
+    "faa-part-107_exam_15.json",
+    "faa-part-107_exam_16.json",
+    "faa-part-107_exam_17.json",
+    "faa-part-107_exam_18.json",
+    "faa-part-107_exam_19.json",
     "faa-part-107_exam_20.json"
   ],
   "sections": [
@@ -24,6 +42,78 @@
     {
       "label": "Practice Exam 01 — Full-Length (Answer Key and Explanations)",
       "file": "faa_part_107_practice_exam_01.pdf"
+    },
+    {
+      "label": "Practice Exam 02 — Full-Length (65 Questions)",
+      "file": "faa_part_107_practice_exam_02.pdf"
+    },
+    {
+      "label": "Practice Exam 03 — Full-Length (65 Questions)",
+      "file": "faa_part_107_practice_exam_03.pdf"
+    },
+    {
+      "label": "Practice Exam 04 — Full-Length (65 Questions)",
+      "file": "faa_part_107_practice_exam_04.pdf"
+    },
+    {
+      "label": "Practice Exam 05 — Full-Length (65 Questions)",
+      "file": "faa_part_107_practice_exam_05.pdf"
+    },
+    {
+      "label": "Practice Exam 06 — Full-Length (65 Questions)",
+      "file": "faa_part_107_practice_exam_06.pdf"
+    },
+    {
+      "label": "Practice Exam 07 — Full-Length (65 Questions)",
+      "file": "faa_part_107_practice_exam_07.pdf"
+    },
+    {
+      "label": "Practice Exam 08 — Full-Length (65 Questions)",
+      "file": "faa_part_107_practice_exam_08.pdf"
+    },
+    {
+      "label": "Practice Exam 09 — Full-Length (65 Questions)",
+      "file": "faa_part_107_practice_exam_09.pdf"
+    },
+    {
+      "label": "Practice Exam 10 — Full-Length (65 Questions)",
+      "file": "faa_part_107_practice_exam_10.pdf"
+    },
+    {
+      "label": "Practice Exam 11 — Full-Length (65 Questions)",
+      "file": "faa_part_107_practice_exam_11.pdf"
+    },
+    {
+      "label": "Practice Exam 12 — Full-Length (65 Questions)",
+      "file": "faa_part_107_practice_exam_12.pdf"
+    },
+    {
+      "label": "Practice Exam 13 — Full-Length (65 Questions)",
+      "file": "faa_part_107_practice_exam_13.pdf"
+    },
+    {
+      "label": "Practice Exam 14 — Full-Length (65 Questions)",
+      "file": "faa_part_107_practice_exam_14.pdf"
+    },
+    {
+      "label": "Practice Exam 15 — Full-Length (65 Questions)",
+      "file": "faa_part_107_practice_exam_15.pdf"
+    },
+    {
+      "label": "Practice Exam 16 — Full-Length (65 Questions)",
+      "file": "faa_part_107_practice_exam_16.pdf"
+    },
+    {
+      "label": "Practice Exam 17 — Full-Length (65 Questions)",
+      "file": "faa_part_107_practice_exam_17.pdf"
+    },
+    {
+      "label": "Practice Exam 18 — Full-Length (65 Questions)",
+      "file": "faa_part_107_practice_exam_18.pdf"
+    },
+    {
+      "label": "Practice Exam 19 — Full-Length (65 Questions)",
+      "file": "faa_part_107_practice_exam_19.pdf"
     },
     {
       "label": "Practice Exam 20 — Full-Length (Answer Key and Explanations)",
