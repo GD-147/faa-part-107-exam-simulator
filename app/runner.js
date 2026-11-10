@@ -559,7 +559,7 @@ if (metaEl) metaEl.textContent = metaText;
     const q = sessionQs[idx];
     qs("title").textContent = `${section.label} — ${mode === "practice" ? "Practice Mode" : "Exam Mode"}`;
     qs("desc").textContent = mode === "practice"
-      ? `10-question set (progress cycles automatically).`
+      ? `${cfg.practiceChunkSize || 30}-question set (progress cycles automatically).`
       : `Timed full section: ${sessionQs.length} questions in ${section.timeMin} minutes.`;
 
       qs("metaLine").textContent = metaText;

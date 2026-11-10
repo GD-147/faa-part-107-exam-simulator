@@ -2,7 +2,7 @@
   "examId": "faa-part-107",
   "brandName": "FAA Part 107 Remote Pilot Exam Simulator",
   "accessPassword": "FAA107PREP",
-  "practiceChunkSize": 10,
+  "practiceChunkSize": 30,
   "examFiles": [
     "faa-part-107_exam_01.json",
     "faa-part-107_exam_20.json"
